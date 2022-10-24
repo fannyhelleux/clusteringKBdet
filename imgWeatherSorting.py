@@ -1,10 +1,3 @@
-# Different parameters :
-
-#  This parameter allows you to modify the sensitivity to light of the algorithm
-thresh_whitePX = 0.4
-# This parameter determines the number of cluster created by the algorithm
-nb_cluster = 2
-
 # libraries import
 import os
 import shutil
@@ -15,7 +8,15 @@ from skimage import color
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
+# Different parameters :
 
+#  This parameter allows you to modify the sensitivity to light of the algorithm
+thresh_whitePX = 0.9
+# This parameter determines the number of cluster created by the algorithm
+nb_cluster = 4
+
+
+# ----------------- No Changes needed -----------------
 def imgCalculation(imgName):
     # function taking a file name (RGB jpg image) as input, converting as B/W and returning the luminosity variance
     # input : imgName (String)

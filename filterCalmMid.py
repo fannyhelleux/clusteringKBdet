@@ -6,7 +6,7 @@ import matplotlib.image
 
 # Get the list of all files in the directory
 path = input(
-    "\nEnter the path of the folder containing the images that need to be sorted: \nex : C:/Users/33608/OneDrive - Fondation EPF/Desktop/ERI/Image processing/Boils/Images/Cluster 2/ \n ")
+    "\nEnter the path of the folder containing the images that need to be treated: \nex : C:/Users/33608/OneDrive - Fondation EPF/Desktop/ERI/Image processing/Boils/Images/Cluster 2/ \n ")
 pathTreated = input(
     "\nEnter the path of the folder for the new treated images: \nex : C:/Users/33608/OneDrive - Fondation EPF/Desktop/ERI/Image processing/Boils/Images/Treated Images/ \n ")
 print("Processing ...")
