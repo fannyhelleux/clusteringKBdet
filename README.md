@@ -1,4 +1,4 @@
-# clusteringKBdet
+# imgTreatmentKBdet
 Containing all algorithms for sorting the images into the different clusters and applying the different filters on them
 
 
